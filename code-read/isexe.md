@@ -1,6 +1,6 @@
 # isexe模块解读
 1. 项目功能：检查文件是 是否可执行的
-    * 当文件有执行权限时，输出“this things can be run”.
+    * 当文件有执行权限时，输出“this things can be run”.
     - 当文件找不到时输出“probably file does not exist or something”。
     - 当文件没有执行权限，但存在时输出“cannot be run”
     - 运行截图
