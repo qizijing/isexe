@@ -16,6 +16,9 @@
 5. 项目中的代码模块：
     1.  isexe(path,options,cb)
     2.  sync(path,options)
+    3. checkStat(stat,options)
+    4. checkMode(stat,options)
+    5. checkPathExt(path,optiond)
 6. 数据结构种类
    1. 树形结构
 6. 算法种类
@@ -44,18 +47,6 @@
     module.exports = isexe
     isexe.sync = sync
 ```
-9. 读不懂的代码
-```
-    core(path, options || {}, function (er, is) {
-    if (er) {
-      if (er.code === 'EACCES' || options && options.ignoreErrors) {
-        er = null
-        is = false
-      }
-    }
-    cb(er, is)
-  })
-}
-```
+
 10. 代码中没有bug
 11. 代码中我们为你认为没有可以改进的地方
