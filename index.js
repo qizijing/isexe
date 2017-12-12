@@ -27,9 +27,9 @@ function isexe (path, options, cb) {
     return new Promise(function (resolve, reject) {
       isexe(path, options || {}, function (er, is) {//调用isexe函数
         if (er) {//如果er值为真
-          reject(er)//失败
+          reject(er)//失败，返回错误er
         } else {
-          resolve(is)//已完成
+          resolve(is)//已完成,返回is
         }
       })
     })
