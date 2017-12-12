@@ -4,8 +4,8 @@
     - 当文件找不到时输出“probably file does not exist or something”。
     - 当文件没有执行权限，但存在时输出“cannot be run”
     - 运行截图
-    - ![image](../img/isexe1.png)
-    - ![image](../img/isexe2.png)
+    - ![image](../img/isexe1.png)
+    - ![image](../img/isexe2.png)
     - 同步方法的运行截图
     ![image](../img/isexesync1.png)
     
@@ -49,6 +49,7 @@
     module.exports = isexe
     isexe.sync = sync
 ```
-
+9. 测试文件运行截图
+    - ![image](../img/isextest.png)
 10. 代码中没有bug
 11. 代码中我们为你认为没有可以改进的地方
