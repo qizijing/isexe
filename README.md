@@ -1,7 +1,7 @@
 # isexe
 Minimal module to check if a file is executable, and a normal file.
 
-检查文件是否可执行的最小模块和普通文件。
+检查文件是否可执行的和普通文件。
 
 Uses `fs.stat` and tests against the `PATHEXT` environment variable on Windows.
 
