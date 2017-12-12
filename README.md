@@ -5,7 +5,7 @@ Minimal module to check if a file is executable, and a normal file.
 
 Uses `fs.stat` and tests against the `PATHEXT` environment variable on Windows.
 
-在Windows上使用fs.stat和测试PATHEXT环境变量。
+在Windows上使用fs.stat，测试PATHEXT环境变量。
 
 ## USAGE
 
