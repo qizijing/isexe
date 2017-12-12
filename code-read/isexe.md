@@ -1,8 +1,11 @@
 # isexe模块解读
 1. 项目功能：检查文件是 是否可执行的最下模块和普通文件
+    - 当文件有执行权限时，输出“this things can be run”.
+    - 当文件找不到时输出“probably file does not exist or something”。
+    - 当文件没有执行权限，但存在时输出“cannot be run”
     - 运行截图
-    ![image](../img/isexe1.jpg)
-    ![image](../img/isexe2.jpg)
+    ![image](../img/isexe1.png)
+    ![image](../img/isexe2.png)
 2. 项目类型：第三方模块
 3. 项目入口文件：index.js
 4. 项目依赖项：
